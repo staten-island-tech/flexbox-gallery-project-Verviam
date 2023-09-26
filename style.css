@@ -6,6 +6,7 @@ body,
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%; /* Same as 10px. 62.5% of default 16px */
     box-sizing: border-box;
+    background-color: bisque;
 }
 
 h1 {
@@ -43,6 +44,7 @@ h1 {
     display: flex;
     width: 30vh;
     height: auto;
+    align-items: top;
 }
 
 .card-desc {
