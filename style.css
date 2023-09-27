@@ -31,14 +31,11 @@ h1 {
     margin: 2rem 3rem 2rem 4rem;
     padding: 3rem;
     outline: 0.2rem solid black; 
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); /* right, bottom, opacity */
     align-items: center;
+
  }
 
- .card:hover {
-    scale: (10%);
-
-}
 .card-title {
     font-size: 2em;
 }
@@ -55,3 +52,17 @@ h1 {
     font-size: 1em;
     margin: 0.5em;
 }
+
+.card-desc:hover {
+    transform: scale(1em);
+    opacity: 0.5em;
+    color: blue;
+}
+
+h1:hover {
+    transform: scale(1em);
+    opacity: 1em;
+    color: blue;
+}
+/* change colors and opacities */ 
+/* edit button and make bigger and click to go to link */
