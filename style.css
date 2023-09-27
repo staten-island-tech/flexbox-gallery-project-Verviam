@@ -19,6 +19,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
 .card {
@@ -31,7 +32,7 @@ h1 {
     padding: 3rem;
     outline: 0.2rem solid black; 
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
-    justify-content: space-between;
+    align-items: center;
  }
 
  .card:hover {
@@ -46,10 +47,11 @@ h1 {
     display: flex;
     width: 30vh;
     height: auto;
-    align-items: top;
+    margin: 4em;
 }
 
 .card-desc {
     text-align: center;
     font-size: 1em;
+    margin: 0.5em;
 }
