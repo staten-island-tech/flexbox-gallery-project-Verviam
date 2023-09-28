@@ -13,6 +13,7 @@ h1 {
   text-align: center;
   font-size: 10rem;
   margin: 0.5em;
+  transition: all 0.3s;
 }
 
 .cards-container {
@@ -22,7 +23,7 @@ h1 {
 }
 
 .card {
-  width: 21vw;
+  width: 19.5vw;
   height: 65vh;
   display: flex;
   flex-direction: column;
@@ -36,39 +37,59 @@ h1 {
 
 .card-title {
   font-size: 2em;
+  transition: all 0.3s;
 }
 
 .card-img {
   display: flex;
   width: 30vh;
   height: auto;
-  margin: 4em;
+  margin: 2em;
+  transition: all 0.5s ease-in-out;
 }
 
 .card-desc {
   text-align: center;
-  font-size: 1em;
+  font-size: 0.7em;
   margin: 0.5em;
+  transition: all 0.3s;
 }
 
 .button-link {
   font-size: 2em;
   padding: 0.2em;
+  margin: 1em;
+  transition: all 0.3s;
+}
+
+.card-title:hover{
+    transform: scale(1.2);
+    color: brown;
+}
+
+.button-link:hover {
+    transform: scale(1.5);
+    color: brown;
+
+}
+
+.card-img:hover {
+    transform: scale(1.3);
 }
 
 .card-desc:hover {
-  transform: scale(1em);
+  transform: scale(1.5);
   opacity: 0.5em;
-  color: blue;
+  color: brown;
 }
 
 h1:hover {
-  transform: scale(1em);
+  transform: scale(1.1);
   opacity: 1em;
-  color: blue;
+  color: brown;
 }
-/* change colors and opacities */
-/* edit button and make bigger and click to go to link */
+
+/* add other animations and hover effects */
 /* try out absolute positioning for images on top of images to scale up on hover */
 
 
