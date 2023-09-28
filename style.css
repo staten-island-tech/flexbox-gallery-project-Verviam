@@ -1,68 +1,97 @@
-html, 
+html,
 body,
 * {
-    padding: 0;
-    margin: 0 auto;
-    font-family: 'Roboto', sans-serif;
-    font-size: 62.5%; /* Same as 10px. 62.5% of default 16px */
-    box-sizing: border-box;
-    background-color: bisque;
+  padding: 0;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%; /* Same as 10px. 62.5% of default 16px */
+  box-sizing: border-box;
+  background-color: bisque;
 }
 
 h1 {
-    text-align: center;
-    font-size: 10rem;
-    margin: 0.5em;
+  text-align: center;
+  font-size: 10rem;
+  margin: 0.5em;
 }
- 
-.cards-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
-    width: 21vw;
-    height: 65vh;
-    display: flex;
-    flex-direction: column;
-    font-size: 2rem; /* References back to root sizes*/
-    margin: 2rem 3rem 2rem 4rem;
-    padding: 3rem;
-    outline: 0.2rem solid black; 
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); /* right, bottom, opacity */
-    align-items: center;
-
- }
+  width: 21vw;
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem; /* References back to root sizes*/
+  margin: 2rem 3rem 2rem 4rem;
+  padding: 3rem;
+  outline: 0.2rem solid black;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3); /* right, bottom, opacity */
+  align-items: center;
+}
 
 .card-title {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 .card-img {
-    display: flex;
-    width: 30vh;
-    height: auto;
-    margin: 4em;
+  display: flex;
+  width: 30vh;
+  height: auto;
+  margin: 4em;
 }
 
 .card-desc {
-    text-align: center;
-    font-size: 1em;
-    margin: 0.5em;
+  text-align: center;
+  font-size: 1em;
+  margin: 0.5em;
+}
+
+.button-link {
+  font-size: 2em;
+  padding: 0.2em;
 }
 
 .card-desc:hover {
-    transform: scale(1em);
-    opacity: 0.5em;
-    color: blue;
+  transform: scale(1em);
+  opacity: 0.5em;
+  color: blue;
 }
 
 h1:hover {
-    transform: scale(1em);
-    opacity: 1em;
-    color: blue;
+  transform: scale(1em);
+  opacity: 1em;
+  color: blue;
 }
-/* change colors and opacities */ 
+/* change colors and opacities */
 /* edit button and make bigger and click to go to link */
+/* try out absolute positioning for images on top of images to scale up on hover */
+
+
+@media screen and (max-width: 1080px){ /* start with max width because starting from pc instead of phone */
+  .card{
+    width: 28%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .card{
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .card{
+    width: 100%;
+  }
+}
