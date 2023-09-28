@@ -81,6 +81,7 @@ h1 {
   transform: scale(1.5);
   opacity: 0.5em;
   color: brown;
+  outline: 1rem solid brown;
 }
 
 h1:hover {
@@ -90,7 +91,7 @@ h1:hover {
 }
 
 /* add other animations and hover effects */
-/* try out absolute positioning for images on top of images to scale up on hover */
+/* find out why outline desc doesn't work */
 
 
 @media screen and (max-width: 1080px){ /* start with max width because starting from pc instead of phone */
