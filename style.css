@@ -23,7 +23,7 @@ h1 {
 }
 
 .card {
-  width: 19.5vw;
+  width: 21%;
   height: 65vh;
   display: flex;
   flex-direction: column;
