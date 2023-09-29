@@ -65,7 +65,7 @@ h1 {
   padding: 0.2em;
   margin: 1em;
   transition: all 0.3s;
-  animation: easter-egg 4s infinite;
+  animation: easter-egg 1s infinite;
 }
 
 .card-title:hover{
@@ -121,11 +121,11 @@ h1:hover {
     transform: scale(0.1);
   }
   25%{
-    transform: scale(0.5);
+    transform: scale(1);
     color: pink;
   }
   75%{
-    transform: scale(2);
+    transform: scale(4);
     color: green;
   }
   100%{
